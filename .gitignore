@@ -216,3 +216,49 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Nolan: arquivos locais, credenciais e arquivos do sistema
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+Thumbs.db
+Desktop.ini
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+secrets/
+.ssh/
+.aws/
+*.kdbx
+
+# Midias de producao e exportacoes ficam locais ate revisao explicita
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aiff
+*.aif
+*.ogg
+*.aac
+/Exportacoes/*
+!/Exportacoes/.gitkeep
+
+# Material pessoal e privado
+Privado/
+Pessoal/
+Familia/
